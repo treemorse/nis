@@ -42,9 +42,7 @@ The study uses data from the Eurostat Survey on Income and Living Conditions (EU
 ### Equation 1: Nonlinear Langevin Equation
 
 $$
-
 \frac{dm}{dt} = -A(m) + C(m) \eta(t)
-
 $$
 
 ---
@@ -58,9 +56,7 @@ $$
 ### Equation 2: Complementary Cumulative Distribution Function
 
 $$
-
 \Pi(m) = \int_{m}^{\infty} P_{eq}(m') dm' = \exp \left( - \frac{m - m_{init}}{T} \right)
-
 $$
 
 ---
@@ -74,7 +70,6 @@ $$
 ### Equation 3: Unified Formula for Income Distribution
 
 $$
-
 P_{eq}(m) = 
 
 \begin{cases}
@@ -84,7 +79,6 @@ c' \cdot \frac{\exp \left( -\left( \frac{m_{0}}{T} \right) \arctan \left( \frac{
 c'' \cdot \frac{\exp \left( -\left( \frac{m_{0}}{T_{1}} \right) \arctan \left( \frac{m}{m_{0}} \right) \right)}{[1 + \left( \frac{m}{m_{0}} \right)^{2}]^{(\alpha_{1} + 1)/2}}, & \text{if } m \ge m_{1}
 
 \end{cases}
-
 $$
 
 ---
