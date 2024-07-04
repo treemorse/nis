@@ -148,17 +148,3 @@ $$
 - **Economic Insights:** High-income class activities are riskier; the medium-income class's role is reduced.
 
 - **Future Work:** Apply the model globally and validate with comprehensive data.
-
----
-
-## Acknowledgments
-
-- Acknowledge contributors and data sources.
-
-- Recognize foundational work by previous researchers.
-
----
-
-## Questions
-
-- Open the floor for questions and further discussion.
