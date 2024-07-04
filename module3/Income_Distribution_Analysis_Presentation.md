@@ -71,13 +71,9 @@ $$
 
 $$
 P_{eq}(m) = 
-
 \begin{cases}
-
 c' \cdot \frac{\exp \left( -\left( \frac{m_{0}}{T} \right) \arctan \left( \frac{m}{m_{0}} \right) \right)}{[1 + \left( \frac{m}{m_{0}} \right)^{2}]^{(\alpha + 1)/2}}, & \text{if } m < m_{1} \ 
-
 c'' \cdot \frac{\exp \left( -\left( \frac{m_{0}}{T_{1}} \right) \arctan \left( \frac{m}{m_{0}} \right) \right)}{[1 + \left( \frac{m}{m_{0}} \right)^{2}]^{(\alpha_{1} + 1)/2}}, & \text{if } m \ge m_{1}
-
 \end{cases}
 $$
 
@@ -85,33 +81,25 @@ $$
 
 ## Threshold Formulas
 
-- **Crossover Points:** The model introduces crossover points \(m_{0}\) and \(m_{1}\) to distinguish between different income classes.
+- **Crossover Points:** The model introduces crossover points $m_{0}$ and $m_{1}$ to distinguish between different income classes.
 
-- **Threshold Forms:** The drift and diffusion coefficients \(A(m)\) and \(B(m)\) are defined differently above and below these thresholds.
+- **Threshold Forms:** The drift and diffusion coefficients $A(m)$ and $B(m)$ are defined differently above and below these thresholds.
 
-### Equation 4: Threshold Forms for \(A(m)\) and \(B(m)\)
+### Equation 4: Threshold Forms for $A(m)$ and $B(m)$
 
 $$
 A(m) = 
-
 \begin{cases} 
-
 A^{<}(m) = A_{0} + am, & \text{if } m < m_{1} \ 
-
 A^{\ge}(m) = A_{0}' + a'm, & \text{if } m \ge m_{1} 
-
 \end{cases}
 $$
 
 $$
 B(m) = 
-
 \begin{cases} 
-
 B^{<}(m) = B_{0} + bm^{2} = b (m_{0}^{2} + m^{2}), & \text{if } m < m_{1} \ 
-
 B^{\ge}(m) = B_{0}' + b'm^{2} = b'(m_{0}'^{2} + m^{2}), & \text{if } m \ge m_{1} 
-
 \end{cases}
 $$
 
