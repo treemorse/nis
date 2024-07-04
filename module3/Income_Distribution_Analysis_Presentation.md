@@ -92,7 +92,6 @@ $$
 ### Equation 4: Threshold Forms for \(A(m)\) and \(B(m)\)
 
 $$
-
 A(m) = 
 
 \begin{cases} 
@@ -102,11 +101,9 @@ A^{<}(m) = A_{0} + am, & \text{if } m < m_{1} \
 A^{\ge}(m) = A_{0}' + a'm, & \text{if } m \ge m_{1} 
 
 \end{cases}
-
 $$
 
 $$
-
 B(m) = 
 
 \begin{cases} 
@@ -116,7 +113,6 @@ B^{<}(m) = B_{0} + bm^{2} = b (m_{0}^{2} + m^{2}), & \text{if } m < m_{1} \
 B^{\ge}(m) = B_{0}' + b'm^{2} = b'(m_{0}'^{2} + m^{2}), & \text{if } m \ge m_{1} 
 
 \end{cases}
-
 $$
 
 ---
